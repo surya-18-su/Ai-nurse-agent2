@@ -1,0 +1,8 @@
+langchain
+langgraph
+langchain-anthropic
+langchain-openai
+pinecone-client
+redis
+python-dotenv
+pytest
