@@ -1,0 +1,15 @@
+{
+  "name": "@careerops/web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Next.js dev server stub'",
+    "build": "echo 'Next.js build stub'",
+    "start": "echo 'Next.js start stub'"
+  },
+  "dependencies": {
+    "@careerops/shared": "workspace:*",
+    "@careerops/db": "workspace:*"
+  }
+}

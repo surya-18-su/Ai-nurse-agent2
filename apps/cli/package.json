@@ -1,0 +1,28 @@
+{
+  "name": "@careerops/cli",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "careerops": "./dist/index.js",
+    "cops": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@careerops/db": "workspace:*",
+    "@careerops/shared": "workspace:*",
+    "@clack/prompts": "^0.7.0",
+    "commander": "^12.1.0",
+    "drizzle-orm": "^0.39.3",
+    "ink": "^4.4.1",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.6.0"
+  }
+}
