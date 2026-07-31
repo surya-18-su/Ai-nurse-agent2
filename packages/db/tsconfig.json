@@ -3,7 +3,10 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
-    "composite": true
+    "composite": true,
+    "paths": {
+      "@careerops/shared": ["../shared/src/index.ts"]
+    }
   },
   "include": ["src/**/*"],
   "references": [{ "path": "../shared" }]
