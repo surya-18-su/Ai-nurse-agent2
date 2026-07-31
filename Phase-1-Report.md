@@ -1,12 +1,15 @@
 ## Phase 1 Report — Foundation
+
 **Status:** complete
 **Runnable proof:**
+
 - Initialize Monorepo and Tooling: \`pnpm install\` and \`pnpm build\`
 - Database generation and verification: \`pnpm --filter @careerops/db run db:migrate\` and \`pnpm --filter @careerops/db run seed:demo\`
 - CLI stub functioning: \`pnpm --filter @careerops/cli run start doctor\` (Runs the CareerOps Doctor correctly)
 - Test pipeline functioning: \`pnpm test\` (Vitest runs successfully)
 
 **Built:**
+
 - Monorepo tooling and workspace config (\`pnpm-workspace.yaml\`, \`turbo.json\`)
 - Node 22 setup and strict \`tsconfig.json\` base.
 - Pre-commit hooks via \`husky\` blocking API keys and changes to \`data/\` files.
@@ -25,6 +28,7 @@
 **Risks discovered:** Managing typescript ESM/CommonJS modules alongside drizzle-orm exports must be strictly monitored via type="module" declarations in package.json formats.
 **Cost:** 0 USD
 **Next phase preview:**
+
 1. Build \`packages/llm\` component interface for provider models handling.
 2. Formulate evidence store schema parsing.
 3. Design baseline match engine passing scoring metrics mapping.

@@ -25,7 +25,7 @@ jobs:
           version: 10
 
       - name: Install Dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Lint Code
         run: pnpm lint

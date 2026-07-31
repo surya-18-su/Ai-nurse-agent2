@@ -9,5 +9,6 @@ export default defineConfig({
       reporter: ['text', 'json', 'html'],
     },
     include: ['**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+    exclude: ['**/node_modules/**', '**/dist/**'],
   },
 });
