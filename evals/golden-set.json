@@ -1,0 +1,27 @@
+[
+  {
+    "id": "mock-greenhouse-job-1",
+    "expectedGrade": "A",
+    "description": "Senior React Developer needing 5+ years experience."
+  },
+  {
+    "id": "mock-lever-job-1",
+    "expectedGrade": "B",
+    "description": "Mid-level Node.js engineer."
+  },
+  {
+    "id": "mock-ashby-job-1",
+    "expectedGrade": "C",
+    "description": "Junior Frontend, basic React."
+  },
+  {
+    "id": "mock-workday-job-1",
+    "expectedGrade": "F",
+    "description": "Director of Engineering, 15+ years experience."
+  },
+  {
+    "id": "mock-smartrecruiters-job-1",
+    "expectedGrade": "A",
+    "description": "Fullstack TypeScript developer."
+  }
+]

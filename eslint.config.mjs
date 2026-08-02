@@ -1,12 +1,18 @@
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import eslintPluginBoundaries from 'eslint-plugin-boundaries';
+import globals from 'globals';
 
 export default tseslint.config(
   eslint.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.recommended,
   {
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
     plugins: {
       boundaries: eslintPluginBoundaries,
     },

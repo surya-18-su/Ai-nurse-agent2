@@ -9,9 +9,10 @@
     "sourceMap": true,
     "emitDeclarationOnly": false,
     "paths": {
-      "@careerops/shared": ["../shared/src/index.ts"]
+      "@careerops/shared": ["../shared/src/index.ts"],
+      "@careerops/db": ["../db/src/index.ts"]
     }
   },
   "include": ["src/**/*"],
-  "references": [{ "path": "../shared" }]
+  "references": [{ "path": "../shared" }, { "path": "../db" }]
 }
