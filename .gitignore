@@ -1,8 +1,12 @@
 node_modules/
 dist/
+build/
+.next/
 coverage/
-data/
-!data/**/*.example.*
-.env
-.turbo/
 *.tsbuildinfo
+*.js
+*.d.ts
+*.map
+.turbo/
+!*.config.js
+!*.mjs

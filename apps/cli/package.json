@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@careerops/db": "workspace:*",
+    "@careerops/evidence": "workspace:*",
+    "@careerops/pdf": "workspace:*",
     "@careerops/shared": "workspace:*",
     "@clack/prompts": "^0.7.0",
     "commander": "^12.1.0",

@@ -3,6 +3,9 @@
 import { Command } from 'commander';
 import { doctorCommand } from './commands/doctor.js';
 import { evaluateCommand } from './commands/evaluate.js';
+import { tailorCommand } from './commands/tailor.js';
+import { applyCommand } from './commands/apply.js';
+import { outreachCommand } from './commands/outreach.js';
 
 const program = new Command();
 
@@ -13,5 +16,8 @@ program
 
 program.addCommand(doctorCommand);
 program.addCommand(evaluateCommand);
+program.addCommand(tailorCommand);
+program.addCommand(applyCommand);
+program.addCommand(outreachCommand);
 
 program.parse(process.argv);
