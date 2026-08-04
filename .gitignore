@@ -10,3 +10,4 @@ coverage/
 .turbo/
 !*.config.js
 !*.mjs
+data/

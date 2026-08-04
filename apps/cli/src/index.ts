@@ -6,6 +6,7 @@ import { evaluateCommand } from './commands/evaluate.js';
 import { tailorCommand } from './commands/tailor.js';
 import { applyCommand } from './commands/apply.js';
 import { outreachCommand } from './commands/outreach.js';
+import { privacyCommand } from './commands/privacy.js';
 
 const program = new Command();
 
@@ -19,5 +20,6 @@ program.addCommand(evaluateCommand);
 program.addCommand(tailorCommand);
 program.addCommand(applyCommand);
 program.addCommand(outreachCommand);
+program.addCommand(privacyCommand);
 
 program.parse(process.argv);
