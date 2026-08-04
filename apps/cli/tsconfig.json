@@ -1,0 +1,27 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "emitDeclarationOnly": false,
+    "paths": {
+      "@careerops/shared": ["../../packages/shared/src/index.ts"],
+      "@careerops/db": ["../../packages/db/src/index.ts"],
+      "@careerops/sources": ["../../packages/sources/src/index.ts"],
+      "@careerops/pdf": ["../../packages/pdf/src/index.ts"],
+      "@careerops/evidence": ["../../packages/evidence/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*"],
+  "references": [
+    { "path": "../../packages/shared" },
+    { "path": "../../packages/db" },
+    { "path": "../../packages/sources" },
+    { "path": "../../packages/pdf" },
+    { "path": "../../packages/evidence" }
+  ]
+}

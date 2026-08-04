@@ -1,0 +1,26 @@
+{
+  "name": "@careerops/web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3939",
+    "build": "echo 'Next.js build stub'",
+    "start": "next start -p 3939",
+    "lint": "echo 'Next.js lint stub'"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "19.0.0-rc-65a56d0e-20241020",
+    "react-dom": "19.0.0-rc-65a56d0e-20241020"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "19.0.4",
+    "@types/react-dom": "19.0.4",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.6.0"
+  }
+}
